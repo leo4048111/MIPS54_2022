@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_cpu_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_cpu" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="86652333334fs"></ZoomStartTime>
+      <ZoomEndTime time="166852333336fs"></ZoomEndTime>
+      <Cursor1Time time="100019000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/tb_cpu/uut/controller/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/IM_Inst" type="array">
+      <obj_property name="ElementShortName">IM_Inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IM_Inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/dmem/memory" type="array">
+      <obj_property name="ElementShortName">memory[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/btn_break" type="logic">
+      <obj_property name="ElementShortName">btn_break</obj_property>
+      <obj_property name="ObjectShortName">btn_break</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/ERET" type="logic">
+      <obj_property name="ElementShortName">ERET</obj_property>
+      <obj_property name="ObjectShortName">ERET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/status_in" type="array">
+      <obj_property name="ElementShortName">status_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/cause_in" type="array">
+      <obj_property name="ElementShortName">cause_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cause_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/epc_in" type="array">
+      <obj_property name="ElementShortName">epc_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">epc_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/IM_BREAK" type="logic">
+      <obj_property name="ElementShortName">IM_BREAK</obj_property>
+      <obj_property name="ObjectShortName">IM_BREAK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/Rd" type="array">
+      <obj_property name="ElementShortName">Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/exception" type="logic">
+      <obj_property name="ElementShortName">exception</obj_property>
+      <obj_property name="ObjectShortName">exception</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/eret" type="logic">
+      <obj_property name="ElementShortName">eret</obj_property>
+      <obj_property name="ObjectShortName">eret</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/cause" type="array">
+      <obj_property name="ElementShortName">cause[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cause[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/rdata" type="array">
+      <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/status" type="array">
+      <obj_property name="ElementShortName">status[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/exc_addr" type="array">
+      <obj_property name="ElementShortName">exc_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exc_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/status_ena" type="logic">
+      <obj_property name="ElementShortName">status_ena</obj_property>
+      <obj_property name="ObjectShortName">status_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/cause_ena" type="logic">
+      <obj_property name="ElementShortName">cause_ena</obj_property>
+      <obj_property name="ObjectShortName">cause_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/epc_ena" type="logic">
+      <obj_property name="ElementShortName">epc_ena</obj_property>
+      <obj_property name="ObjectShortName">epc_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/status_in" type="array">
+      <obj_property name="ElementShortName">status_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/cause_in" type="array">
+      <obj_property name="ElementShortName">cause_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cause_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/epc_in" type="array">
+      <obj_property name="ElementShortName">epc_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">epc_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/status_out" type="array">
+      <obj_property name="ElementShortName">status_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/cause_out" type="array">
+      <obj_property name="ElementShortName">cause_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cause_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/cp0_inst/epc_out" type="array">
+      <obj_property name="ElementShortName">epc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">epc_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/uut/controller/rf_inst/array_reg" type="array">
+      <obj_property name="ElementShortName">array_reg[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">array_reg[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

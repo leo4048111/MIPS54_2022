@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Jul 14 11:47:30 2022
+# Process ID: 16016
+# Current directory: D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/synth_1
+# Command line: vivado.exe -log CPU54.vds -mode batch -messageDb vivado.pb -notrace -source CPU54.tcl
+# Log file: D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/synth_1/CPU54.vds
+# Journal file: D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source CPU54.tcl -notrace

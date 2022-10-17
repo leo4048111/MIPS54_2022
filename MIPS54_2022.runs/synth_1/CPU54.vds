@@ -1,0 +1,1084 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Jul 14 11:47:30 2022
+# Process ID: 16016
+# Current directory: D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/synth_1
+# Command line: vivado.exe -log CPU54.vds -mode batch -messageDb vivado.pb -notrace -source CPU54.tcl
+# Log file: D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/synth_1/CPU54.vds
+# Journal file: D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source CPU54.tcl -notrace
+Command: synth_design -top CPU54 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10632 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 307.039 ; gain = 99.723
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'CPU54' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/CPU54.v:23]
+INFO: [Synth 8-638] synthesizing module 'ClockDivider' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/ClockDivider.v:23]
+	Parameter count bound to: 1000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ClockDivider' (1#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/ClockDivider.v:23]
+INFO: [Synth 8-638] synthesizing module 'Controller' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:23]
+INFO: [Synth 8-638] synthesizing module 'InstDecoder' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/InstDecoder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'InstDecoder' (2#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/InstDecoder.v:23]
+INFO: [Synth 8-638] synthesizing module 'PCREG' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/PCREG.v:23]
+INFO: [Synth 8-256] done synthesizing module 'PCREG' (3#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/PCREG.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALU' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (4#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-638] synthesizing module 'RegFile' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/RegFile.v:22]
+INFO: [Synth 8-256] done synthesizing module 'RegFile' (5#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/RegFile.v:22]
+INFO: [Synth 8-638] synthesizing module 'MUX12' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/MUX12.v:23]
+INFO: [Synth 8-256] done synthesizing module 'MUX12' (6#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/MUX12.v:23]
+INFO: [Synth 8-638] synthesizing module 'MUX24' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/MUX24.v:23]
+INFO: [Synth 8-256] done synthesizing module 'MUX24' (7#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/MUX24.v:23]
+WARNING: [Synth 8-689] width (5) of port connection 'A1' does not match port width (32) of module 'MUX24' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-689] width (5) of port connection 'A2' does not match port width (32) of module 'MUX24' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-689] width (5) of port connection 'out' does not match port width (32) of module 'MUX24' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+INFO: [Synth 8-638] synthesizing module 'EXT5' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/EXT5.v:23]
+INFO: [Synth 8-256] done synthesizing module 'EXT5' (8#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/EXT5.v:23]
+INFO: [Synth 8-638] synthesizing module 'EXT16' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/EXT16.v:23]
+INFO: [Synth 8-256] done synthesizing module 'EXT16' (9#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/EXT16.v:23]
+INFO: [Synth 8-638] synthesizing module 'SIGN_EXT16' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/SIGN_EXT16.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SIGN_EXT16' (10#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/SIGN_EXT16.v:23]
+INFO: [Synth 8-638] synthesizing module 'EXT18' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/EXT18.v:23]
+INFO: [Synth 8-256] done synthesizing module 'EXT18' (11#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/EXT18.v:23]
+INFO: [Synth 8-638] synthesizing module 'Adder' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Adder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Adder' (12#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Adder.v:23]
+INFO: [Synth 8-638] synthesizing module 'CountZero' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/CountZero.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CountZero' (13#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/CountZero.v:23]
+INFO: [Synth 8-638] synthesizing module 'Divider' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Divider.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Divider' (14#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Divider.v:23]
+INFO: [Synth 8-638] synthesizing module 'Multifier' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Multifier.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Multifier' (15#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Multifier.v:23]
+INFO: [Synth 8-638] synthesizing module 'DataExtender' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DataExtender.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DataExtender.v:34]
+INFO: [Synth 8-256] done synthesizing module 'DataExtender' (16#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DataExtender.v:23]
+INFO: [Synth 8-638] synthesizing module 'RegHiLo' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/RegHiLo.v:23]
+INFO: [Synth 8-638] synthesizing module 'Register' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Register.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Register' (17#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Register.v:23]
+INFO: [Synth 8-256] done synthesizing module 'RegHiLo' (18#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/RegHiLo.v:23]
+INFO: [Synth 8-638] synthesizing module 'CauseGenerator' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/CauseGenerator.v:23]
+INFO: [Synth 8-226] default block is never used [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/CauseGenerator.v:32]
+INFO: [Synth 8-256] done synthesizing module 'CauseGenerator' (19#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/CauseGenerator.v:23]
+INFO: [Synth 8-638] synthesizing module 'CP0' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/CP0.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CP0' (20#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/CP0.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Controller' (21#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:23]
+INFO: [Synth 8-638] synthesizing module 'DMEM' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:74]
+INFO: [Synth 8-638] synthesizing module 'ila_0' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/synth_1/.Xil/Vivado-16016-DESKTOP-55513A7/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'ila_0' (22#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/synth_1/.Xil/Vivado-16016-DESKTOP-55513A7/realtime/ila_0_stub.v:6]
+WARNING: [Synth 8-5788] Register memory_reg[0] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[1] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[2] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[3] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[4] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[5] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[6] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[7] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[8] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[9] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[10] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[11] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[12] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[13] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[14] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[15] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[16] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[17] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[18] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[19] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[20] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[21] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[22] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[23] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[24] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[25] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[26] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[27] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[28] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[29] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[30] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+WARNING: [Synth 8-5788] Register memory_reg[31] in module DMEM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:51]
+INFO: [Synth 8-256] done synthesizing module 'DMEM' (23#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:23]
+INFO: [Synth 8-638] synthesizing module 'IMEM' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/IMEM.v:23]
+INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_0' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/synth_1/.Xil/Vivado-16016-DESKTOP-55513A7/realtime/dist_mem_gen_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'dist_mem_gen_0' (24#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/synth_1/.Xil/Vivado-16016-DESKTOP-55513A7/realtime/dist_mem_gen_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'IMEM' (25#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/IMEM.v:23]
+INFO: [Synth 8-638] synthesizing module 'IMEM_Exception' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/IMEM_Exception.v:23]
+INFO: [Synth 8-638] synthesizing module 'dist_mem_gen_1' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/synth_1/.Xil/Vivado-16016-DESKTOP-55513A7/realtime/dist_mem_gen_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'dist_mem_gen_1' (26#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/synth_1/.Xil/Vivado-16016-DESKTOP-55513A7/realtime/dist_mem_gen_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'IMEM_Exception' (27#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/IMEM_Exception.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CPU54' (28#1) [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/CPU54.v:23]
+WARNING: [Synth 8-3331] design InstDecoder has unconnected port IM_Inst[25]
+WARNING: [Synth 8-3331] design InstDecoder has unconnected port IM_Inst[24]
+WARNING: [Synth 8-3331] design InstDecoder has unconnected port IM_Inst[22]
+WARNING: [Synth 8-3331] design InstDecoder has unconnected port IM_Inst[21]
+WARNING: [Synth 8-3331] design InstDecoder has unconnected port IM_Inst[20]
+WARNING: [Synth 8-3331] design InstDecoder has unconnected port IM_Inst[19]
+WARNING: [Synth 8-3331] design InstDecoder has unconnected port IM_Inst[18]
+WARNING: [Synth 8-3331] design InstDecoder has unconnected port IM_Inst[17]
+WARNING: [Synth 8-3331] design InstDecoder has unconnected port IM_Inst[16]
+WARNING: [Synth 8-3331] design InstDecoder has unconnected port IM_Inst[15]
+WARNING: [Synth 8-3331] design InstDecoder has unconnected port IM_Inst[14]
+WARNING: [Synth 8-3331] design InstDecoder has unconnected port IM_Inst[13]
+WARNING: [Synth 8-3331] design InstDecoder has unconnected port IM_Inst[12]
+WARNING: [Synth 8-3331] design InstDecoder has unconnected port IM_Inst[11]
+WARNING: [Synth 8-3331] design InstDecoder has unconnected port IM_Inst[10]
+WARNING: [Synth 8-3331] design InstDecoder has unconnected port IM_Inst[9]
+WARNING: [Synth 8-3331] design InstDecoder has unconnected port IM_Inst[8]
+WARNING: [Synth 8-3331] design InstDecoder has unconnected port IM_Inst[7]
+WARNING: [Synth 8-3331] design InstDecoder has unconnected port IM_Inst[6]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 358.090 ; gain = 150.773
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[31] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[30] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[29] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[28] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[27] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[26] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[25] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[24] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[23] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[22] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[21] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[20] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[19] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[18] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[17] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[16] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[15] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[14] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[13] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[12] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[11] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[10] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[9] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[8] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[7] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[6] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[5] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[4] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[3] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[2] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[1] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux4:A4[0] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:229]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[31] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[30] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[29] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[28] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[27] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[26] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[25] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[24] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[23] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[22] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[21] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[20] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[19] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[18] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[17] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[16] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[15] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[14] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[13] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[12] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[11] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[10] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[9] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[8] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[7] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[6] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[5] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[4] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[3] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[2] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[1] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux6:A4[0] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:231]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[31] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[30] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[29] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[28] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[27] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[26] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[25] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[24] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[23] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[22] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[21] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[20] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[19] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[18] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[17] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[16] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[15] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[14] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[13] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[12] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[11] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[10] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[9] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[8] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[7] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[6] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[5] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[4] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[3] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[2] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[1] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+WARNING: [Synth 8-3295] tying undriven pin mux9:A4[0] to constant 0 [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Controller.v:234]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 358.090 ; gain = 150.773
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'dist_mem_gen_0' instantiated as 'imem/dmg_inst_0' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/IMEM.v:28]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'dist_mem_gen_1' instantiated as 'imem_exp/dmg_inst_1' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/IMEM_Exception.v:28]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'ila_0' instantiated as 'dmem/ila_inst' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DMEM.v:74]
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/synth_1/.Xil/Vivado-16016-DESKTOP-55513A7/dcp/dist_mem_gen_0_in_context.xdc] for cell 'imem/dmg_inst_0'
+Finished Parsing XDC File [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/synth_1/.Xil/Vivado-16016-DESKTOP-55513A7/dcp/dist_mem_gen_0_in_context.xdc] for cell 'imem/dmg_inst_0'
+Parsing XDC File [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/synth_1/.Xil/Vivado-16016-DESKTOP-55513A7/dcp_2/ila_0_in_context.xdc] for cell 'dmem/ila_inst'
+Finished Parsing XDC File [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/synth_1/.Xil/Vivado-16016-DESKTOP-55513A7/dcp_2/ila_0_in_context.xdc] for cell 'dmem/ila_inst'
+Parsing XDC File [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/synth_1/.Xil/Vivado-16016-DESKTOP-55513A7/dcp_3/dist_mem_gen_1_in_context.xdc] for cell 'imem_exp/dmg_inst_1'
+Finished Parsing XDC File [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/synth_1/.Xil/Vivado-16016-DESKTOP-55513A7/dcp_3/dist_mem_gen_1_in_context.xdc] for cell 'imem_exp/dmg_inst_1'
+Parsing XDC File [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/constrs_1/new/tb.xdc]
+Finished Parsing XDC File [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/constrs_1/new/tb.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/constrs_1/new/tb.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/CPU54_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/CPU54_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 672.414 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 673.234 ; gain = 465.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 673.234 ; gain = 465.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 673.234 ; gain = 465.918
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "ZF" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "array_reg_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "tmp_quotient" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "tmp_remainder" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/Multifier.v:37]
+INFO: [Synth 8-5546] ROM "memory_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-327] inferring latch for variable 'reg_result_reg' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/ALU.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'reg_data_reg' [D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/new/DataExtender.v:35]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 673.234 ; gain = 465.918
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------+------------+----------+
+|      |RTL Partition   |Replication |Instances |
++------+----------------+------------+----------+
+|1     |Controller__GB0 |           1|     21896|
+|2     |Controller__GB1 |           1|     11638|
+|3     |CPU54__GC0      |           1|     26998|
++------+----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	  33 Input     64 Bit       Adders := 1     
+	   2 Input     33 Bit       Adders := 3     
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 11    
+	   2 Input     11 Bit       Adders := 1     
++---XORs : 
+	   2 Input     33 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 70    
+	               11 Bit    Registers := 1     
++---Multipliers : 
+	                32x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 64    
+	   2 Input     63 Bit        Muxes := 1     
+	   2 Input     62 Bit        Muxes := 1     
+	   2 Input     61 Bit        Muxes := 1     
+	   2 Input     60 Bit        Muxes := 1     
+	   2 Input     59 Bit        Muxes := 1     
+	   2 Input     58 Bit        Muxes := 1     
+	   2 Input     57 Bit        Muxes := 1     
+	   2 Input     56 Bit        Muxes := 1     
+	   2 Input     55 Bit        Muxes := 1     
+	   2 Input     54 Bit        Muxes := 1     
+	   2 Input     53 Bit        Muxes := 1     
+	   2 Input     52 Bit        Muxes := 1     
+	   2 Input     51 Bit        Muxes := 1     
+	   2 Input     50 Bit        Muxes := 1     
+	   2 Input     49 Bit        Muxes := 1     
+	   2 Input     48 Bit        Muxes := 1     
+	   2 Input     47 Bit        Muxes := 1     
+	   2 Input     46 Bit        Muxes := 1     
+	   2 Input     45 Bit        Muxes := 1     
+	   2 Input     44 Bit        Muxes := 1     
+	   2 Input     43 Bit        Muxes := 1     
+	   2 Input     42 Bit        Muxes := 1     
+	   2 Input     41 Bit        Muxes := 1     
+	   2 Input     40 Bit        Muxes := 1     
+	   2 Input     39 Bit        Muxes := 1     
+	   2 Input     38 Bit        Muxes := 1     
+	   2 Input     37 Bit        Muxes := 1     
+	   2 Input     36 Bit        Muxes := 1     
+	   2 Input     35 Bit        Muxes := 1     
+	   2 Input     34 Bit        Muxes := 1     
+	   2 Input     33 Bit        Muxes := 3     
+	  15 Input     33 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 156   
+	   4 Input     32 Bit        Muxes := 6     
+	   3 Input     32 Bit        Muxes := 25    
+	   2 Input     16 Bit        Muxes := 7     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 7     
+	  33 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 32    
+	  15 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module CPU54 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module Register__1 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module Register__2 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module RegHiLo 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module Multifier 
+Detailed RTL Component Info : 
++---Adders : 
+	  33 Input     64 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 64    
+	   2 Input     63 Bit        Muxes := 1     
+	   2 Input     62 Bit        Muxes := 1     
+	   2 Input     61 Bit        Muxes := 1     
+	   2 Input     60 Bit        Muxes := 1     
+	   2 Input     59 Bit        Muxes := 1     
+	   2 Input     58 Bit        Muxes := 1     
+	   2 Input     57 Bit        Muxes := 1     
+	   2 Input     56 Bit        Muxes := 1     
+	   2 Input     55 Bit        Muxes := 1     
+	   2 Input     54 Bit        Muxes := 1     
+	   2 Input     53 Bit        Muxes := 1     
+	   2 Input     52 Bit        Muxes := 1     
+	   2 Input     51 Bit        Muxes := 1     
+	   2 Input     50 Bit        Muxes := 1     
+	   2 Input     49 Bit        Muxes := 1     
+	   2 Input     48 Bit        Muxes := 1     
+	   2 Input     47 Bit        Muxes := 1     
+	   2 Input     46 Bit        Muxes := 1     
+	   2 Input     45 Bit        Muxes := 1     
+	   2 Input     44 Bit        Muxes := 1     
+	   2 Input     43 Bit        Muxes := 1     
+	   2 Input     42 Bit        Muxes := 1     
+	   2 Input     41 Bit        Muxes := 1     
+	   2 Input     40 Bit        Muxes := 1     
+	   2 Input     39 Bit        Muxes := 1     
+	   2 Input     38 Bit        Muxes := 1     
+	   2 Input     37 Bit        Muxes := 1     
+	   2 Input     36 Bit        Muxes := 1     
+	   2 Input     35 Bit        Muxes := 1     
+	   2 Input     34 Bit        Muxes := 1     
+	   2 Input     33 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+Module Divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 10    
+Module MUX24__1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module MUX24__2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module MUX12__1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module MUX12__2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module MUX24__3 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module MUX12__3 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module MUX24__4 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module MUX12__4 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module MUX12__5 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module MUX12__6 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module MUX12 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module MUX24__5 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module RegFile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 32    
+Module MUX24 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module Adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
+Module CountZero 
+Detailed RTL Component Info : 
++---Muxes : 
+	  33 Input      6 Bit        Muxes := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 2     
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
++---XORs : 
+	   2 Input     33 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Multipliers : 
+	                32x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 2     
+	  15 Input     33 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	  15 Input      1 Bit        Muxes := 1     
+Module PCREG 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module DataExtender 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input      1 Bit        Muxes := 1     
+Module CauseGenerator 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+Module Register__3 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module Register__4 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module Register 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module CP0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 11    
+Module Controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module ClockDivider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+Module DMEM 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 123   
+	   3 Input     32 Bit        Muxes := 25    
+	   2 Input     16 Bit        Muxes := 7     
+	   2 Input      8 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 673.234 ; gain = 465.918
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "tmp_quotient" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "tmp_remainder" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "ZF" won't be mapped to RAM because address size (33) is larger than maximum supported(25)
+DSP Report: Generating DSP mul_result, operation Mode is: A*B.
+DSP Report: operator mul_result is absorbed into DSP mul_result.
+DSP Report: operator mul_result is absorbed into DSP mul_result.
+DSP Report: Generating DSP mul_result, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_result is absorbed into DSP mul_result.
+DSP Report: operator mul_result is absorbed into DSP mul_result.
+DSP Report: Generating DSP mul_result, operation Mode is: A*B.
+DSP Report: operator mul_result is absorbed into DSP mul_result.
+DSP Report: operator mul_result is absorbed into DSP mul_result.
+DSP Report: Generating DSP mul_result, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator mul_result is absorbed into DSP mul_result.
+DSP Report: operator mul_result is absorbed into DSP mul_result.
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 673.234 ; gain = 465.918
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 673.234 ; gain = 465.918
+
+Report RTL Partitions: 
++------+----------------+------------+----------+
+|      |RTL Partition   |Replication |Instances |
++------+----------------+------------+----------+
+|1     |Controller__GB0 |           1|     23872|
+|2     |Controller__GB1 |           1|     12618|
+|3     |CPU54__GC0      |           1|     27952|
++------+----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|ALU         | A*B            | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU         | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU         | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU         | (PCIN>>17)+A*B | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (controlleri_1/rf_inst/\array_reg_reg[0][31] )
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][31]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][30]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][29]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][28]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][27]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][26]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][25]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][24]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][23]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][22]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][21]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][20]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][19]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][18]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][17]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][16]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][15]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][14]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][13]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][12]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][11]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][10]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][9]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][8]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][7]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][6]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][5]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][4]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][3]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][2]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][1]) is unused and will be removed from module RegFile.
+WARNING: [Synth 8-3332] Sequential element (array_reg_reg[0][0]) is unused and will be removed from module RegFile.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 673.234 ; gain = 465.918
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 673.234 ; gain = 465.918
+
+Report RTL Partitions: 
++------+----------------+------------+----------+
+|      |RTL Partition   |Replication |Instances |
++------+----------------+------------+----------+
+|1     |Controller__GB0 |           1|     12628|
+|2     |Controller__GB1 |           1|      7312|
+|3     |CPU54__GC0      |           1|      5523|
++------+----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:40 . Memory (MB): peak = 752.438 ; gain = 545.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:40 . Memory (MB): peak = 752.438 ; gain = 545.121
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------+------------+----------+
+|      |RTL Partition   |Replication |Instances |
++------+----------------+------------+----------+
+|1     |Controller__GB0 |           1|     12628|
+|2     |Controller__GB1 |           1|      7312|
+|3     |CPU54__GC0      |           1|      5523|
++------+----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][31]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][30]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][29]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][28]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][27]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][26]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][25]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][24]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][23]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][22]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][21]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][20]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][19]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][18]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][17]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][16]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][15]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][14]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][13]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][12]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][11]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][10]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][9]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][8]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][7]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][6]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][5]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][4]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][3]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][2]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][1]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[2][0]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][31]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][30]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][29]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][28]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][27]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][26]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][25]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][24]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][23]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][22]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][21]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][20]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][19]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][18]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][17]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][16]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][15]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][14]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][13]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][12]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][11]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][10]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][9]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][8]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][7]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][6]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][5]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][4]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][3]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][2]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][1]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[3][0]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[4][31]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[4][30]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[4][29]_P) is unused and will be removed from module CPU54.
+WARNING: [Synth 8-3332] Sequential element (dmem/memory_reg[4][28]_P) is unused and will be removed from module CPU54.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 836.875 ; gain = 629.559
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 836.875 ; gain = 629.559
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 836.875 ; gain = 629.559
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 836.875 ; gain = 629.559
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:42 . Memory (MB): peak = 836.875 ; gain = 629.559
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 836.875 ; gain = 629.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:43 . Memory (MB): peak = 836.875 ; gain = 629.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:43 . Memory (MB): peak = 836.875 ; gain = 629.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:43 . Memory (MB): peak = 836.875 ; gain = 629.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------+----------+
+|      |BlackBox name  |Instances |
++------+---------------+----------+
+|1     |ila_0          |         1|
+|2     |dist_mem_gen_0 |         1|
+|3     |dist_mem_gen_1 |         1|
++------+---------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |dist_mem_gen_0 |     1|
+|2     |dist_mem_gen_1 |     1|
+|3     |ila_0          |     1|
+|4     |BUFG           |     3|
+|5     |CARRY4         |   903|
+|6     |DSP48E1        |     3|
+|7     |LUT1           |    77|
+|8     |LUT2           |   940|
+|9     |LUT3           |   532|
+|10    |LUT4           |   861|
+|11    |LUT5           |   917|
+|12    |LUT6           |  4340|
+|13    |MUXF7          |   386|
+|14    |XORCY          |     1|
+|15    |FDCE           |  1408|
+|16    |FDCP           |   160|
+|17    |FDPE           |    11|
+|18    |FDRE           |   800|
+|19    |LD             |    65|
+|20    |IBUF           |     4|
+|21    |OBUF           |     1|
++------+---------------+------+
+
+Report Instance Areas: 
++------+-----------------+---------------+------+
+|      |Instance         |Module         |Cells |
++------+-----------------+---------------+------+
+|1     |top              |               | 11476|
+|2     |  cd_inst        |ClockDivider   |    26|
+|3     |  controller     |Controller     |  8983|
+|4     |    de_inst      |DataExtender   |    32|
+|5     |    mux12        |MUX24_1        |    32|
+|6     |    adder_inst   |Adder          |    30|
+|7     |    alu_inst     |ALU            |   343|
+|8     |    clz_inst     |CountZero      |    42|
+|9     |    cp0_inst     |CP0            |   161|
+|10    |      Reg_cause  |Register_8     |    32|
+|11    |      Reg_epc    |Register_9     |    32|
+|12    |      Reg_status |Register_10    |    97|
+|13    |    divider_inst |Divider        |  2596|
+|14    |    multifier    |Multifier      |   704|
+|15    |    mux1         |MUX12          |    31|
+|16    |    mux10        |MUX12_0        |    64|
+|17    |    mux11        |MUX24          |    32|
+|18    |    mux13        |MUX24_2        |    32|
+|19    |    mux2         |MUX12_3        |    13|
+|20    |    mux3         |MUX12_4        |   227|
+|21    |    mux7         |MUX12_5        |    15|
+|22    |    mux8         |MUX12_6        |    21|
+|23    |    pc_reg       |PCREG          |  1465|
+|24    |    regHiLo_inst |RegHiLo        |    64|
+|25    |      reg_hi     |Register       |    32|
+|26    |      reg_lo     |Register_7     |    32|
+|27    |    rf_inst      |RegFile        |  3079|
+|28    |  dmem           |DMEM           |  1632|
+|29    |  imem           |IMEM           |    32|
+|30    |  imem_exp       |IMEM_Exception |    32|
++------+-----------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:43 . Memory (MB): peak = 836.875 ; gain = 629.559
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 194 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 836.875 ; gain = 285.531
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:43 . Memory (MB): peak = 836.875 ; gain = 629.559
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1136 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 33 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 226 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 1 instances
+  FDCP => FDCP (FDCE, FDPE, LUT3, LDCE, VCC): 160 instances
+  LD => LDCE: 32 instances
+  LD => LDCE (inverted pins: G): 33 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+211 Infos, 256 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 836.875 ; gain = 605.809
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 836.875 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 14 11:48:16 2022...

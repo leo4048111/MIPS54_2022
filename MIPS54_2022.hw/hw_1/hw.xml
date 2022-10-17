@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2016.2 (64-bit)                     -->
+<!--                                                              -->
+<!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="1">
+  <device name="xc7a100t_0" gui_info="dashboard1=dashboard_1[xc7a100t_0/XADC=XADC_PLOT_1;],dashboard2=hw_ila_1[xc7a100t_0/hw_ila_1/Settings=ILA_SETTINGS_1;xc7a100t_0/hw_ila_1/Trigger Setup=ILA_TRIGGER_1;xc7a100t_0/hw_ila_1/Capture Setup=ILA_CAPTURE_1;xc7a100t_0/hw_ila_1/Status=ILA_STATUS_1;xc7a100t_0/hw_ila_1/Waveform=ILA_WAVE_1;]"/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7a100t_0" gui_info="">
+      <Properties Property="PROBES.FILE" value="$_project_name_.runs/impl_1/debug_nets.ltx"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/CPU54.bit"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_ila" gui_info="">
+    <Object name="dmem/ila_inst" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="1"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_sysmon" gui_info="">
+    <Object name="XADC" gui_info="dashboard_1=[TEMPERATURE=-65281;SCAN_RATE=1000;TRACK_TIME=1;]"/>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe0[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="dmem/memory[0]__0[31]"/>
+        <net name="dmem/memory[0]__0[30]"/>
+        <net name="dmem/memory[0]__0[29]"/>
+        <net name="dmem/memory[0]__0[28]"/>
+        <net name="dmem/memory[0]__0[27]"/>
+        <net name="dmem/memory[0]__0[26]"/>
+        <net name="dmem/memory[0]__0[25]"/>
+        <net name="dmem/memory[0]__0[24]"/>
+        <net name="dmem/memory[0]__0[23]"/>
+        <net name="dmem/memory[0]__0[22]"/>
+        <net name="dmem/memory[0]__0[21]"/>
+        <net name="dmem/memory[0]__0[20]"/>
+        <net name="dmem/memory[0]__0[19]"/>
+        <net name="dmem/memory[0]__0[18]"/>
+        <net name="dmem/memory[0]__0[17]"/>
+        <net name="dmem/memory[0]__0[16]"/>
+        <net name="dmem/memory[0]__0[15]"/>
+        <net name="dmem/memory[0]__0[14]"/>
+        <net name="dmem/memory[0]__0[13]"/>
+        <net name="dmem/memory[0]__0[12]"/>
+        <net name="dmem/memory[0]__0[11]"/>
+        <net name="dmem/memory[0]__0[10]"/>
+        <net name="dmem/memory[0]__0[9]"/>
+        <net name="dmem/memory[0]__0[8]"/>
+        <net name="dmem/memory[0]__0[7]"/>
+        <net name="dmem/memory[0]__0[6]"/>
+        <net name="dmem/memory[0]__0[5]"/>
+        <net name="dmem/memory[0]__0[4]"/>
+        <net name="dmem/memory[0]__0[3]"/>
+        <net name="dmem/memory[0]__0[2]"/>
+        <net name="dmem/memory[0]__0[1]"/>
+        <net name="dmem/memory[0]__0[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe1[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="dmem/memory[1]__0[31]"/>
+        <net name="dmem/memory[1]__0[30]"/>
+        <net name="dmem/memory[1]__0[29]"/>
+        <net name="dmem/memory[1]__0[28]"/>
+        <net name="dmem/memory[1]__0[27]"/>
+        <net name="dmem/memory[1]__0[26]"/>
+        <net name="dmem/memory[1]__0[25]"/>
+        <net name="dmem/memory[1]__0[24]"/>
+        <net name="dmem/memory[1]__0[23]"/>
+        <net name="dmem/memory[1]__0[22]"/>
+        <net name="dmem/memory[1]__0[21]"/>
+        <net name="dmem/memory[1]__0[20]"/>
+        <net name="dmem/memory[1]__0[19]"/>
+        <net name="dmem/memory[1]__0[18]"/>
+        <net name="dmem/memory[1]__0[17]"/>
+        <net name="dmem/memory[1]__0[16]"/>
+        <net name="dmem/memory[1]__0[15]"/>
+        <net name="dmem/memory[1]__0[14]"/>
+        <net name="dmem/memory[1]__0[13]"/>
+        <net name="dmem/memory[1]__0[12]"/>
+        <net name="dmem/memory[1]__0[11]"/>
+        <net name="dmem/memory[1]__0[10]"/>
+        <net name="dmem/memory[1]__0[9]"/>
+        <net name="dmem/memory[1]__0[8]"/>
+        <net name="dmem/memory[1]__0[7]"/>
+        <net name="dmem/memory[1]__0[6]"/>
+        <net name="dmem/memory[1]__0[5]"/>
+        <net name="dmem/memory[1]__0[4]"/>
+        <net name="dmem/memory[1]__0[3]"/>
+        <net name="dmem/memory[1]__0[2]"/>
+        <net name="dmem/memory[1]__0[1]"/>
+        <net name="dmem/memory[1]__0[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe2[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="dmem/memory[2]__0[31]"/>
+        <net name="dmem/memory[2]__0[30]"/>
+        <net name="dmem/memory[2]__0[29]"/>
+        <net name="dmem/memory[2]__0[28]"/>
+        <net name="dmem/memory[2]__0[27]"/>
+        <net name="dmem/memory[2]__0[26]"/>
+        <net name="dmem/memory[2]__0[25]"/>
+        <net name="dmem/memory[2]__0[24]"/>
+        <net name="dmem/memory[2]__0[23]"/>
+        <net name="dmem/memory[2]__0[22]"/>
+        <net name="dmem/memory[2]__0[21]"/>
+        <net name="dmem/memory[2]__0[20]"/>
+        <net name="dmem/memory[2]__0[19]"/>
+        <net name="dmem/memory[2]__0[18]"/>
+        <net name="dmem/memory[2]__0[17]"/>
+        <net name="dmem/memory[2]__0[16]"/>
+        <net name="dmem/memory[2]__0[15]"/>
+        <net name="dmem/memory[2]__0[14]"/>
+        <net name="dmem/memory[2]__0[13]"/>
+        <net name="dmem/memory[2]__0[12]"/>
+        <net name="dmem/memory[2]__0[11]"/>
+        <net name="dmem/memory[2]__0[10]"/>
+        <net name="dmem/memory[2]__0[9]"/>
+        <net name="dmem/memory[2]__0[8]"/>
+        <net name="dmem/memory[2]__0[7]"/>
+        <net name="dmem/memory[2]__0[6]"/>
+        <net name="dmem/memory[2]__0[5]"/>
+        <net name="dmem/memory[2]__0[4]"/>
+        <net name="dmem/memory[2]__0[3]"/>
+        <net name="dmem/memory[2]__0[2]"/>
+        <net name="dmem/memory[2]__0[1]"/>
+        <net name="dmem/memory[2]__0[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe3[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="dmem/memory[3]__0[31]"/>
+        <net name="dmem/memory[3]__0[30]"/>
+        <net name="dmem/memory[3]__0[29]"/>
+        <net name="dmem/memory[3]__0[28]"/>
+        <net name="dmem/memory[3]__0[27]"/>
+        <net name="dmem/memory[3]__0[26]"/>
+        <net name="dmem/memory[3]__0[25]"/>
+        <net name="dmem/memory[3]__0[24]"/>
+        <net name="dmem/memory[3]__0[23]"/>
+        <net name="dmem/memory[3]__0[22]"/>
+        <net name="dmem/memory[3]__0[21]"/>
+        <net name="dmem/memory[3]__0[20]"/>
+        <net name="dmem/memory[3]__0[19]"/>
+        <net name="dmem/memory[3]__0[18]"/>
+        <net name="dmem/memory[3]__0[17]"/>
+        <net name="dmem/memory[3]__0[16]"/>
+        <net name="dmem/memory[3]__0[15]"/>
+        <net name="dmem/memory[3]__0[14]"/>
+        <net name="dmem/memory[3]__0[13]"/>
+        <net name="dmem/memory[3]__0[12]"/>
+        <net name="dmem/memory[3]__0[11]"/>
+        <net name="dmem/memory[3]__0[10]"/>
+        <net name="dmem/memory[3]__0[9]"/>
+        <net name="dmem/memory[3]__0[8]"/>
+        <net name="dmem/memory[3]__0[7]"/>
+        <net name="dmem/memory[3]__0[6]"/>
+        <net name="dmem/memory[3]__0[5]"/>
+        <net name="dmem/memory[3]__0[4]"/>
+        <net name="dmem/memory[3]__0[3]"/>
+        <net name="dmem/memory[3]__0[2]"/>
+        <net name="dmem/memory[3]__0[1]"/>
+        <net name="dmem/memory[3]__0[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe4[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="dmem/memory[4]__0[31]"/>
+        <net name="dmem/memory[4]__0[30]"/>
+        <net name="dmem/memory[4]__0[29]"/>
+        <net name="dmem/memory[4]__0[28]"/>
+        <net name="dmem/memory[4]__0[27]"/>
+        <net name="dmem/memory[4]__0[26]"/>
+        <net name="dmem/memory[4]__0[25]"/>
+        <net name="dmem/memory[4]__0[24]"/>
+        <net name="dmem/memory[4]__0[23]"/>
+        <net name="dmem/memory[4]__0[22]"/>
+        <net name="dmem/memory[4]__0[21]"/>
+        <net name="dmem/memory[4]__0[20]"/>
+        <net name="dmem/memory[4]__0[19]"/>
+        <net name="dmem/memory[4]__0[18]"/>
+        <net name="dmem/memory[4]__0[17]"/>
+        <net name="dmem/memory[4]__0[16]"/>
+        <net name="dmem/memory[4]__0[15]"/>
+        <net name="dmem/memory[4]__0[14]"/>
+        <net name="dmem/memory[4]__0[13]"/>
+        <net name="dmem/memory[4]__0[12]"/>
+        <net name="dmem/memory[4]__0[11]"/>
+        <net name="dmem/memory[4]__0[10]"/>
+        <net name="dmem/memory[4]__0[9]"/>
+        <net name="dmem/memory[4]__0[8]"/>
+        <net name="dmem/memory[4]__0[7]"/>
+        <net name="dmem/memory[4]__0[6]"/>
+        <net name="dmem/memory[4]__0[5]"/>
+        <net name="dmem/memory[4]__0[4]"/>
+        <net name="dmem/memory[4]__0[3]"/>
+        <net name="dmem/memory[4]__0[2]"/>
+        <net name="dmem/memory[4]__0[1]"/>
+        <net name="dmem/memory[4]__0[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe5[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="dmem/memory[5]__0[31]"/>
+        <net name="dmem/memory[5]__0[30]"/>
+        <net name="dmem/memory[5]__0[29]"/>
+        <net name="dmem/memory[5]__0[28]"/>
+        <net name="dmem/memory[5]__0[27]"/>
+        <net name="dmem/memory[5]__0[26]"/>
+        <net name="dmem/memory[5]__0[25]"/>
+        <net name="dmem/memory[5]__0[24]"/>
+        <net name="dmem/memory[5]__0[23]"/>
+        <net name="dmem/memory[5]__0[22]"/>
+        <net name="dmem/memory[5]__0[21]"/>
+        <net name="dmem/memory[5]__0[20]"/>
+        <net name="dmem/memory[5]__0[19]"/>
+        <net name="dmem/memory[5]__0[18]"/>
+        <net name="dmem/memory[5]__0[17]"/>
+        <net name="dmem/memory[5]__0[16]"/>
+        <net name="dmem/memory[5]__0[15]"/>
+        <net name="dmem/memory[5]__0[14]"/>
+        <net name="dmem/memory[5]__0[13]"/>
+        <net name="dmem/memory[5]__0[12]"/>
+        <net name="dmem/memory[5]__0[11]"/>
+        <net name="dmem/memory[5]__0[10]"/>
+        <net name="dmem/memory[5]__0[9]"/>
+        <net name="dmem/memory[5]__0[8]"/>
+        <net name="dmem/memory[5]__0[7]"/>
+        <net name="dmem/memory[5]__0[6]"/>
+        <net name="dmem/memory[5]__0[5]"/>
+        <net name="dmem/memory[5]__0[4]"/>
+        <net name="dmem/memory[5]__0[3]"/>
+        <net name="dmem/memory[5]__0[2]"/>
+        <net name="dmem/memory[5]__0[1]"/>
+        <net name="dmem/memory[5]__0[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe6[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="dmem/memory[6]__0[31]"/>
+        <net name="dmem/memory[6]__0[30]"/>
+        <net name="dmem/memory[6]__0[29]"/>
+        <net name="dmem/memory[6]__0[28]"/>
+        <net name="dmem/memory[6]__0[27]"/>
+        <net name="dmem/memory[6]__0[26]"/>
+        <net name="dmem/memory[6]__0[25]"/>
+        <net name="dmem/memory[6]__0[24]"/>
+        <net name="dmem/memory[6]__0[23]"/>
+        <net name="dmem/memory[6]__0[22]"/>
+        <net name="dmem/memory[6]__0[21]"/>
+        <net name="dmem/memory[6]__0[20]"/>
+        <net name="dmem/memory[6]__0[19]"/>
+        <net name="dmem/memory[6]__0[18]"/>
+        <net name="dmem/memory[6]__0[17]"/>
+        <net name="dmem/memory[6]__0[16]"/>
+        <net name="dmem/memory[6]__0[15]"/>
+        <net name="dmem/memory[6]__0[14]"/>
+        <net name="dmem/memory[6]__0[13]"/>
+        <net name="dmem/memory[6]__0[12]"/>
+        <net name="dmem/memory[6]__0[11]"/>
+        <net name="dmem/memory[6]__0[10]"/>
+        <net name="dmem/memory[6]__0[9]"/>
+        <net name="dmem/memory[6]__0[8]"/>
+        <net name="dmem/memory[6]__0[7]"/>
+        <net name="dmem/memory[6]__0[6]"/>
+        <net name="dmem/memory[6]__0[5]"/>
+        <net name="dmem/memory[6]__0[4]"/>
+        <net name="dmem/memory[6]__0[3]"/>
+        <net name="dmem/memory[6]__0[2]"/>
+        <net name="dmem/memory[6]__0[1]"/>
+        <net name="dmem/memory[6]__0[0]"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>

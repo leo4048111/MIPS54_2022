@@ -1,0 +1,103 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Jul 13 16:42:03 2022
+# Process ID: 12400
+# Current directory: D:/Projects/Vivado/MIPS54_2022
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3340 D:\Projects\Vivado\MIPS54_2022\MIPS54_2022.xpr
+# Log file: D:/Projects/Vivado/MIPS54_2022/vivado.log
+# Journal file: D:/Projects/Vivado/MIPS54_2022\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.xpr
+update_compile_order -fileset sources_1
+open_hw
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 20
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list led]]
+set_property is_loc_fixed true [get_ports [list  led]]
+place_ports led H17
+save_constraints
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/impl_1/CPU54.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/impl_1/CPU54.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw
+close_design
+set_property is_enabled false [get_files  D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/impl_1/CPU54.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/impl_1/CPU54.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/impl_1/CPU54.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+close_hw
+remove_files -fileset dist_mem_gen_0 D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci
+file delete -force D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/ip/dist_mem_gen_0
+report_ip_status -name ip_status 
+set_property source_mgmt_mode DisplayOnly [current_project]
+create_ip -name dist_mem_gen -vendor xilinx.com -library ip -version 8.0 -module_name dist_mem_gen_0
+set_property -dict [list CONFIG.depth {2048} CONFIG.data_width {32} CONFIG.memory_type {rom} CONFIG.coefficient_file {D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/testcases/_dropEggs.coe}] [get_ips dist_mem_gen_0]
+generate_target {instantiation_template} [get_files d:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+generate_target all [get_files  d:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+export_ip_user_files -of_objects [get_files d:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -no_script -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+launch_run -jobs 20 dist_mem_gen_0_synth_1
+export_simulation -of_objects [get_files d:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -directory D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.ip_user_files/sim_scripts -ip_user_files_dir D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.ip_user_files -ipstatic_source_dir D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.ip_user_files/ipstatic -force -quiet
+report_ip_status -name ip_status 
+launch_simulation
+open_wave_config D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.srcs/sim_1/imports/MIPS54_2022/tb_controller_behav.wcfg
+source tb_cpu.tcl
+run all
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/impl_1/CPU54.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/Projects/Vivado/MIPS54_2022/MIPS54_2022.runs/impl_1/CPU54.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw
+close_sim
